@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F0F8FF; /* Блідо-блакитний фон */
+    font-family: Arial, sans-serif;
 }
 
 .image-container {
@@ -18,4 +19,29 @@ img {
     border: 2px solid #B0C4DE; /* М’який блакитний обвід */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.info {
+    background-color: #E6F0FA; /* Світло-блакитний фон для тексту */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #B0C4DE;
+    max-width: 600px;
+}
+
+.info h2 {
+    color: #4682B4; /* Сталевий синій */
+    font-size: 1.8em;
+    margin: 0 0 10px;
+}
+
+.info p {
+    color: #5F9EA0; /* Кадетська блакить */
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.info strong {
+    color: #2F4F4F; /* Темно-сірий для виділення */
 }
